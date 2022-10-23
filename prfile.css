@@ -1,0 +1,112 @@
+body{
+    background-color: #d0e1f9;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 16px 32px;
+    overflow: hidden;
+  }
+    
+  li {
+    float: right;
+  }
+  
+  .logo {
+    float: left;
+  }
+    
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .logo-text{
+    font-style: italic;
+  }
+    
+  li a:hover:not(.active) {
+    color: #004258;
+  }
+    
+  .active {
+    color: #004258;
+  }
+  
+  @media screen and (max-width: 600px) {
+    ul li {float: none;}
+    .logo {float: none;}
+  }
+  body{
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .content1 {
+      display:grid;
+      grid-template-columns: 66% auto;
+      padding: 0 48px 48px 48px;
+  }
+  
+  .text1 {
+    margin: 0 64px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 {
+    color: white;
+    margin-top: 0;
+  }
+  
+  #tag {
+    margin-top: 0;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+  }
+  
+  mark{
+    background: #004258;
+    color: white;
+    padding: 5px 5px;
+  }
+  p{
+    color: whitesmoke;
+  }
+  .content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    background-color: white;
+    padding: 0 12%;
+  }
+  
+  .card {
+    background-color: white;
+    transition: 0.3s;
+    width: 300px;
+    min-height: 350px;
+    padding: 32px;
+    margin: 81px 0;
+    text-align: center;
+  }
+  
+  .card:hover {
+    background-color: #fbcb7b;
+  }
+  
+  }
